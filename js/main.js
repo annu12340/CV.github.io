@@ -141,7 +141,7 @@ $(document).ready(function() {
 //  Porfolio isotope and filter
 // ========================================================================= //
 $(window).load(function(){
-
+  jQuery(".pre-loader ").fadeOut(500);
   var portfolioIsotope = $('.portfolio-container').isotope({
     itemSelector: '.portfolio-thumbnail',
     layoutMode: 'fitRows'
